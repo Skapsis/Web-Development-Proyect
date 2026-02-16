@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Auto-play del carrusel
   // ===========================
   const carousel = document.querySelector('#carouselExampleIndicators');
-  if (carousel) {
+  if (carousel && typeof bootstrap !== 'undefined') {
     const bsCarousel = new bootstrap.Carousel(carousel, {
       interval: 3000,
       wrap: true
