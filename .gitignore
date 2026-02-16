@@ -1,5 +1,32 @@
-/.DS_Store
-/.vscode
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias (si se añaden en el futuro)
+node_modules/
+package-lock.json
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Build (si se añade proceso de build)
+dist/
+build/
+
+# Directorios de otros proyectos del curso
 /11.0 Bootstrap Intro
 /11.3 TinDog Project
 /2.1 Heading Element
